@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -9,15 +10,22 @@ body {
 
 h1 {
     text-align: center;
+    font-size: 175%;
 }
 
 .row {
     width: 100%;
 }
 
+.menuConatiner {
+    margin: 0px;
+    padding: 0px;
+}
+
 .menuBox {
-    border: 2px solid black;
+    border: 1px solid black;
     margin: 10px;
+    padding: 10px;
     position: relative;
     height: 200px;
     background-color: #d06a55;
@@ -28,16 +36,18 @@ h1 {
     width: 35%;
     height: 30px;
     position: absolute;
-    border: 2px solid black;
+    border: 1px solid black;
     top: -2px;
     right: -2px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 125%;
 }
 
 .menuContent {
     position: absolute;
+    padding: 10px;
     top: 30px;
 }
 
