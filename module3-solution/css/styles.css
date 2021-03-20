@@ -1,0 +1,36 @@
+.navbar {
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+.navbar-header {
+    border: 1px;
+}
+
+.navbar-toggle {
+    background-color: chartreuse;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+#nav-list {
+    background-color: yellow;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.nav-menu-item {
+    text-align: center;
+}
+
+.menu-divider {
+    height: 1px;
+    margin: 0px;
+}
+
+.menu-box {
+    background-color: cornflowerblue;
+}
