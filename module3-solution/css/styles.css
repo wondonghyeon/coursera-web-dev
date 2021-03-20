@@ -32,5 +32,11 @@
 }
 
 .menu-box {
-    background-color: cornflowerblue;
+    background-color: ivory;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.menu-content {
+    margin: 10px;
 }
